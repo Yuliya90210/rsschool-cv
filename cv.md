@@ -1,26 +1,30 @@
 # Yuliya Grishkevich
-## Contact
--------------------     ----------------------------
-Email:                      yuliya1grishkevich@gmail.com
-Location:                   Russia, Saint Petersburg
-Phone:                      +1
-Git:                        https://github.com/Yuliya90210
--------------------     ----------------------------
+===
+## Contacts
+**Email:** yuliya1grishkevich@gmail.com
 
-Education an courses
----------
+**Location:** Russia, Saint Petersburg
 
+**Phone:**+1
 
- Computer Science**; 
-
-    
-
-
-Language
-----------
-
+**Git:** [Yuliya90210](https://github.com/Yuliya90210)
+===
+## About myself 
+## Education and courses
+2018-2024
+:   **PhD, Computer Science**; Saint-Petersburg Electrotechnical University ETU “LETI” 
+## Code example:
+```int multiply(int a, int b)
+{
+   return a * b;
+}
+```
+===
+## Language
+Russian - native
 English level - A2
+Polish - A1
+===
 
-About myself
---------------------
+
 
