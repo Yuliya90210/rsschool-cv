@@ -39,7 +39,3 @@ def human_years_cat_years_dog_years(human_years):
     return [human_years, catYears, dogYears]
 ```
 
-## Language
-* Russian - native
-* English level - B1
-* Polish - A1
