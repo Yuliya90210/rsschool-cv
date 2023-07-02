@@ -19,7 +19,7 @@ C++ courses [on stepik](https://stepik.org/course/363/promo)
 Python courses [on stepik](https://stepik.org/course/58852/info)
 
 Hacktory Web Security Professional [courses](https://hacktory.ai/courses/web-security)
-## Code example:
+## Code example
 
 ```python
 def human_years_cat_years_dog_years(human_years):
