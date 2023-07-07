@@ -1,5 +1,9 @@
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -14,7 +18,7 @@ body {
     padding: 15px 0 15px;
     background-color: #ffcdcd;
 }
-  
+
  .container{
     max-width: 731px;
     margin: 0 auto;
@@ -36,15 +40,39 @@ body {
     padding: 0 15px;
 }
 .nav-link{
-    list-style: none;
     text-decoration: none;
     color: black;
 }
 .nav-link:hover{
-    background-color: #ffcdcd;
+    background-color: #fa8b8b;
 }
 
+.footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 15px 0 15px;
+}
 
+.footer-container{
+    background-color: black;
 
+}
+
+.logo-png{
+    width: 70px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.info-items{
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+    min-width: 731px;
+    color: #ffffff;
+}
 
   
