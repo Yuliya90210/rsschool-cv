@@ -13,27 +13,140 @@
 <body>
     <header class="header">
         <div class="container header-container">
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
-                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-                </ul>
-            </nav>
-        </div> 
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    </ul>
+                </nav>
+            </div> 
     </header>
-    <main class="main-container">
+    <main class="main">
+        <div class="main-container">
+            <section class="section" id="photo">
+                <h3 class="photo-link"><img src="./assets/img/avatar.jpg" alt="photo" class="section-profile-photo"></h3>
+               
+            </section>
+            <section class="section" id="profile">
+                <h1 class="section-title section-name-title">Yuliya<br>Grishkevich</h1>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title"> Contacts</h2>
+                    <div class="contact-items">
+                        <ul class="section-list">
+                            <li class="contact-item">
+                                Location: Russia, Saint Petersburg
+                            </li>
+                            <li class="contact-item">
+                                Email: <a href="mailto:yuliya1grishkevich@gmail.com" class="contact-link" title="email">yuliya1grishkevich@gmail.com</a>
+                            </li>
+                             <li class="contact-item">
+                                Telegram: <a href="https://t.me/skychnayaghiza" class="contact-link" title="telegram">skychnayaghiza</a>
+                            <li class="contact-item">
+                                Git: <a href="https://github.com/Yuliya90210" class="contact-link" title="github">Yuliya90210</a>
+                            </li>
+                        </ul>
+                    </div>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title ">Summary</h2>
+                <div class="section-summary">
+                    <p class="text-summary">
+                    I'm 22 years old. I live in St. Petersburg and study at technical university and my major is computer security. I want to try myself in something new, so I signed up for a course in front-end development.
+                    </p>   
+                </div>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="section-skills">
+                    <ul class="skills-list">
+                        <li class="skills-item">Graphics: <span>Figma</span></li>
+                        <li class="skills-item">Web-development: <span>HTML5, Basic CSS</span></li>
+                        <li class="skills-item">Version control: <span>Github</span></li>
+                        <li class="skills-item">Operating systems: <span>Windows, Linux</span></li>
+                        <li class="skills-item">Modeling: <span>UML</span></li>
+                        <li class="skills-item">Basic Python</li>
+                    </ul>
+                </div> 
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <div class="section-code">
+                    
+                    <pre class="pre-code"><code>def human_years_cat_years_dog_years(human_years):
+    if human_years > 3:
+        dogYears = 15 + 9 + 5 * (human_years - 2)
+        catYears = 15 + 9 + 4 * (human_years - 2)
+    else:
+        if human_years == 1:
+            catYears = 15
+            dogYears = 15
+        elif human_years == 2:
+            catYears = 24
+            dogYears = 24
+        elif human_years == 3:
+            catYears = 28
+            dogYears = 29
+    return [human_years, catYears, dogYears]</code></pre>
+                </div>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <div class="section-courses">
+                    <ul class="courses-items">
+                        <li class="courses-item">
+                            C++ courses <a href="https://stepik.org/course/363/promo" class="course-link" title="c++">on stepik</a> 
+                        </li>
+                        <li class="courses-item">
+                            Python courses <a href="https://stepik.org/course/58852/info" class="course-link" title="python">on stepik</a> 
+                        </li>
+                        <li class="courses-item">
+                            Hacktory Web Security Professional <a href="https://hacktory.ai/courses/web-security" class="course-link" title="hactory">courses</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title ">Education</h2>
+                <div class="section-education">
+                    <p class="text-education">
+                        Saint-Petersburg Electrotechnical University ETU “LETI” (2018-2024)
+                    </p>
+                </div>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <div class="section-languages">
+                    <ul class="language-items">
+                        <li class="language">
+                            Russian - native 
+                        </li>
+                        <li class="language">
+                            English - B1 
+                        </li>
+                        <li class="language">
+                            Polish - A1</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+            </section>
+        </div>
     </main>
     <footer class="footer">
         <div class=" container footer-container">
             <div class="info-items">
                 2023
                 <a class="footer-link" href="https://github.com/Yuliya90210" title="github">github</a>
-                <img class="logo-png" src="./assets/img/logors.png" alt="loroRSshool">
+                <a class="logo-link" href="https://github.com/rolling-scopes-school/tasks/tree/master/stage0">
+                    <img class="logo-png" src="./assets/img/logors.png" alt="logoRSshool">
+                  </a>
             </div>
             
         </div>     

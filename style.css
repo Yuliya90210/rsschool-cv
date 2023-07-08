@@ -1,4 +1,9 @@
-
+*{
+	box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth; 
+  }
 body {
     display: flex;
     flex-direction: column;
@@ -13,38 +18,123 @@ body {
     color: black;
 }
 
-
 .header{
     padding: 15px 0 15px;
-    background-color: #ffcdcd;
+    background-color: #ffdddd;
 }
 
  .container{
-    max-width: 731px;
+    min-width: 750px;
+    max-width: 750px;
     margin: 0 auto;
-    padding: 0 15px;
-    background-color: #ffcdcd;
+    padding: 0 15px; 
  }
 
  .nav{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-around;
  }
+
 .nav-list{
     display: flex;
     padding: 0;
 }
+
 .nav-item{
     list-style: none;
     padding: 0 15px;
 }
+
 .nav-link{
     text-decoration: none;
     color: black;
+    padding: 10px 0;
+    transition: color 0.5s;
 }
+
 .nav-link:hover{
-    background-color: #fa8b8b;
+    background-color: #ffb8b8;
+}
+
+.main {
+    margin-bottom: auto;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.section {
+    width: 50%;
+}
+.section-title {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 40px;
+  }
+
+h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color: #ffdddd;
+    margin-top: 0;
+    
+}
+h3{
+    margin: 0;
+    font-size: 0px;
+    
+}
+
+#photo{
+    /* background-color: #ffdddd; */
+    display: flex;
+    justify-content: space-around;
+    /* border-bottom: 1px solid  #a8a8a8;
+    border-top: 1px solid  #a8a8a8; */
+}
+
+.section-profile-photo{
+    width: 240px;
+    height: 330px;
+}
+  
+
+.section-name-title{
+    text-align: center;
+    margin: 5px;
+}
+  #profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    /* background-color: #ffdddd;
+    border-bottom: 1px solid  #a8a8a8;
+    border-top: 1px solid  #a8a8a8; */
+
+  }
+  .section-summary, .section-code, .section-education{
+    padding: 0 40px;
+  }
+
+.contact-link, .course-link{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000a2;
+}
+
+code {
+    font-size: 17px;
+    font-family: 'Courier New';
 }
 
 .footer{
@@ -75,4 +165,16 @@ body {
     color: #ffffff;
 }
 
-  
+
+ @media (max-width: 768px){
+    .section{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 1440px) {
+    .container {
+      padding: 0 20px;
+    }
+  }
