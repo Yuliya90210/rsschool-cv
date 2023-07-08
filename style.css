@@ -122,11 +122,11 @@ h3{
     border-top: 1px solid  #a8a8a8; */
 
   }
-  .section-summary, .section-code, .section-education{
+  .section-summary, .section-code, .section-education, .section-projects{
     padding: 0 40px;
   }
 
-.contact-link, .course-link{
+.contact-link, .course-link, .project-link{
     text-decoration: none;
     font-weight: bold;
     color: #000000a2;
