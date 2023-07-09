@@ -1,0 +1,176 @@
+*{
+	box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+}
+
+.header{
+    padding: 15px 0 15px;
+    background-color: #ffdddd;
+}
+
+.container{
+    min-width: 830px;
+    margin: 0 auto;
+    padding: 0 15px; 
+ }
+.header-container{
+    background-color: #ffdddd;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+ }
+
+.nav-list{
+    display: flex;
+    padding: 0;
+}
+
+.nav-item{
+    list-style: none;
+    padding: 0 15px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    padding: 10px 0;
+    transition: color 0.5s;
+}
+
+.nav-link:hover{
+    background-color: #cc9d9d77;
+}
+
+.main {
+    margin-bottom: auto;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.section {
+    width: 50%;
+}
+
+.section-title {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 40px;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color: #ffdddd;
+    margin-top: 0;
+}
+
+h3{
+    margin: 0;
+    font-size: 0px;
+}
+
+#photo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-profile-photo{
+    width: 240px;
+    height: 330px;
+}
+  
+
+.section-name-title{
+    text-align: center;
+    margin: 5px;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-summary,  .section-education, .section-projects{
+    padding: 0 40px;
+}
+
+.section-code{
+    padding: 0 0 0 40px;
+}
+
+.contact-link, .course-link, .project-link{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000a2;
+}
+
+code {
+    font-size: 15px;
+    font-family: 'Courier New';
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 15px 0 15px;
+}
+
+.footer-container{
+    background-color: black;
+
+}
+
+.logo-png{
+    width: 70px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.info-items{
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+    min-width: 730px;
+    color: #ffffff;
+}
+
+
+ @media (max-width: 830px){
+    .section{
+        width: 100%;
+    }
+    
+}
