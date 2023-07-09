@@ -4,8 +4,155 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>cv</title>
 </head>
 <body>
+    <header class="header">
+        <div class="container header-container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                        <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    </ul>
+                </nav>
+            </div> 
+    </header>
+    <main class="main">
+        <div class="main-container">
+            <section class="section" id="photo">
+                <h3 class="photo-link"><img src="./assets/img/avatar.jpg" alt="photo" class="section-profile-photo"></h3>
+            </section>
+            <section class="section" id="profile">
+                <h1 class="section-title section-name-title">Yuliya<br>Grishkevich</h1>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title"> Contacts</h2>
+                    <div class="contact-items">
+                        <ul class="section-list">
+                            <li class="contact-item">
+                                Location: Russia, Saint Petersburg
+                            </li>
+                            <li class="contact-item">
+                                Email: <a href="mailto:yuliya1grishkevich@gmail.com" class="contact-link" title="email">yuliya1grishkevich@gmail.com</a>
+                            </li>
+                             <li class="contact-item">
+                                Telegram: <a href="https://t.me/skychnayaghiza" class="contact-link" title="telegram">skychnayaghiza</a>
+                            <li class="contact-item">
+                                Git: <a href="https://github.com/Yuliya90210" class="contact-link" title="github">Yuliya90210</a>
+                            </li>
+                        </ul>
+                    </div>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title ">Summary</h2>
+                <div class="section-summary">
+                    <p class="text-summary">
+                    I'm 22 years old. I live in St. Petersburg and study at technical university and my major is computer security. I want to try myself in something new, so I signed up for a course in front-end development.
+                    </p>   
+                </div>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="section-skills">
+                    <ul class="skills-list">
+                        <li class="skills-item">Graphics: <span>Figma</span></li>
+                        <li class="skills-item">Web-development: <span>HTML5, Basic CSS</span></li>
+                        <li class="skills-item">Version control: <span>Github</span></li>
+                        <li class="skills-item">Operating systems: <span>Windows, Linux</span></li>
+                        <li class="skills-item">Modeling: <span>UML</span></li>
+                        <li class="skills-item">Basic Python</li>
+                    </ul>
+                </div> 
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <div class="section-code">
+                    <pre class="pre-code"><code>def hum_y_cat_y_dog_y(hum_y):
+    if hum_y > 3:
+        dog_y = 15 + 9 + 5 * (hum_y - 2)
+        cat_y = 15 + 9 + 4 * (hum_y - 2)
+    else:
+        if hum_y == 1:
+            cat_y = 15
+            dog_y = 15
+        elif hum_y == 2:
+            cat_y = 24
+            dog_y = 24
+        elif hum_y == 3:
+            cat_y = 28
+            dog_y = 29
+    return [hum_y, cat_y, dog_y]</code></pre>
+                </div>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <div class="section-courses">
+                    <ul class="courses-items">
+                        <li class="courses-item">
+                            C++ courses <a href="https://stepik.org/course/363/promo" class="course-link" title="c++">on stepik</a> 
+                        </li>
+                        <li class="courses-item">
+                            Python courses <a href="https://stepik.org/course/58852/info" class="course-link" title="python">on stepik</a> 
+                        </li>
+                        <li class="courses-item">
+                            Hacktory Web Security Professional <a href="https://hacktory.ai/courses/web-security" class="course-link" title="hactory">courses</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title ">Education</h2>
+                <div class="section-education">
+                    <p class="text-education">
+                        Saint-Petersburg Electrotechnical University ETU “LETI” (2018-2024)
+                    </p>
+                </div>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <div class="section-languages">
+                    <ul class="language-items">
+                        <li class="language">
+                            Russian - native 
+                        </li>
+                        <li class="language">
+                            English - B1 
+                        </li>
+                        <li class="language">
+                            Polish - A1</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <div class="section-projects">
+                <a href="https://yuliya90210.github.io/rsschool-cv/" class="project-link" title="project">CV (HTML, CSS & Git Basics)</a>
+            </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class=" container footer-container">
+            <div class="info-items">
+                2023
+                <a class="footer-link" href="https://github.com/Yuliya90210" title="github">github</a>
+                <a class="logo-link" href="https://github.com/rolling-scopes-school/tasks/tree/master/stage0">
+                    <img class="logo-png" src="./assets/img/logors.png" alt="logoRSshool">
+                  </a>
+            </div>
+            
+        </div>     
+
+    </footer>
 </body>
 </html>
