@@ -18,10 +18,11 @@
                         <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                         <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
                         <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                        <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
-                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
                         <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                        <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
                     </ul>
                 </nav>
             </div> 
@@ -30,7 +31,6 @@
         <div class="main-container">
             <section class="section" id="photo">
                 <h3 class="photo-link"><img src="./assets/img/avatar.jpg" alt="photo" class="section-profile-photo"></h3>
-               
             </section>
             <section class="section" id="profile">
                 <h1 class="section-title section-name-title">Yuliya<br>Grishkevich</h1>
@@ -77,22 +77,21 @@
             <section class="section" id="code">
                 <h2 class="section-title">Code</h2>
                 <div class="section-code">
-                    
-                    <pre class="pre-code"><code>def human_years_cat_years_dog_years(human_years):
-    if human_years > 3:
-        dogYears = 15 + 9 + 5 * (human_years - 2)
-        catYears = 15 + 9 + 4 * (human_years - 2)
+                    <pre class="pre-code"><code>def hum_y_cat_y_dog_y(hum_y):
+    if hum_y > 3:
+        dog_y = 15 + 9 + 5 * (hum_y - 2)
+        cat_y = 15 + 9 + 4 * (hum_y - 2)
     else:
-        if human_years == 1:
-            catYears = 15
-            dogYears = 15
-        elif human_years == 2:
-            catYears = 24
-            dogYears = 24
-        elif human_years == 3:
-            catYears = 28
-            dogYears = 29
-    return [human_years, catYears, dogYears]</code></pre>
+        if hum_y == 1:
+            cat_y = 15
+            dog_y = 15
+        elif hum_y == 2:
+            cat_y = 24
+            dog_y = 24
+        elif hum_y == 3:
+            cat_y = 28
+            dog_y = 29
+    return [hum_y, cat_y, dog_y]</code></pre>
                 </div>
             </section>
             <section class="section" id="courses">
